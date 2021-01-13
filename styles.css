@@ -14,13 +14,12 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg, #2BFF88 0%, #2BD2FF 52%,  #FA8BFF 90%) no-repeat;
-    margin: 0;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%);
 }
-
 h1 {
     color: white;
-    font-size: 5em;
+    font-size: 6em;
     line-height: 0.8em;
     font-weight: normal;
     text-shadow: 0.09em 0.05em 0 #5015B0;
@@ -31,10 +30,37 @@ h2 {
     line-height: 0.8em;
     font-weight: normal;
 }
+h3 {
+    font-family: Helvetica;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 0.5em;
+
+}
+.floor1 {
+    background-color: #32b35e;
+    background-image: linear-gradient(30deg, #32b35e 0%, #2AF598 100%);
+}
+.floor2 {
+    background-color: #fff63b;
+    background-image: linear-gradient(90deg, #fff63b 0%, #ffc63c 100%);
+}
+.floor3 {
+    background-color: #fa6161;
+    background-image: linear-gradient(45deg, #fa6161 0%, #F76B1C 100%);
+}
+.floor4 {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%);
+}
 .titleWrapper {
     padding: 2em 4em;
-    max-width: 70%;
-    transform: rotate(-9.72deg);
+    max-width: 80%;
+    transform: rotate(-9deg);
 }
 .footer {
     padding-bottom: 2em;
@@ -42,7 +68,14 @@ h2 {
 }
 .title {
     position: absolute;
-    left: 40%;
+    left: 20%;
+    top: 20%;
+    width: 50%;
+    text-shadow: 0.09em 0.05em 0 #5015B0;
+}
+.title_2 {
+    position: absolute;
+    left: 10%;
     top: 20%;
     width: 50%;
     text-shadow: 0.09em 0.05em 0 #5015B0;
@@ -61,12 +94,11 @@ a:hover {
     color: white;
 }
 
-.gallery div:nth-child(2n-1) {
-    text-align: end;
-
-}
 .gallery__item {
     position: relative;
+}
+.right {
+    text-align: end;
 }
 .gallery__item img {
     height: auto;

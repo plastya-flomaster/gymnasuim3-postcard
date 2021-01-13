@@ -1,4 +1,5 @@
 import confetti from "https://cdn.skypack.dev/pin/canvas-confetti@v1.3.2-e8rgSt2pMylWmIrKd3Zs/min/canvas-confetti.js";
+
 let colors = ['#FA8BFF', '#ffffff', '#23CE6B', '#FFF129'];
 window.addEventListener('DOMContentLoaded', (event) => {
     const end = Date.now() + (3 * 1000);
@@ -8,14 +9,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
             particleCount: 4,
             angle: 60,
             spread: 55,
-            origin: { x: 0 },
+            origin: {x: 0},
             colors: colors
         });
         confetti({
             particleCount: 4,
             angle: 120,
             spread: 55,
-            origin: { x: 1 },
+            origin: {x: 1},
             colors: colors
         });
         if (Date.now() < end) {
@@ -24,26 +25,30 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }());
 });
 
-window.addEventListener("click", () => {
-    const end = Date.now() + (800);
-
-    (function frame() {
-        confetti({
-            particleCount: 4,
-            angle: 60,
-            spread: 55,
-            origin: { x: 0 },
-            colors: colors
-        });
-        confetti({
-            particleCount: 4,
-            angle: 120,
-            spread: 55,
-            origin: { x: 1 },
-            colors: colors
-        });
-        if (Date.now() < end) {
-            requestAnimationFrame(frame);
-        }
-    }());
-});
+const list = document.getElementsByTagName('img');
+for (let img of list) {
+    img.addEventListener('click', () => {
+        img.style.transform = 'scale(1.1)';
+        img.style.transition = 'all 400ms'
+        const end = Date.now() + (800);
+        (function frame() {
+            confetti({
+                particleCount: 4,
+                angle: 60,
+                spread: 55,
+                origin: {x: 0},
+                colors: colors
+            });
+            confetti({
+                particleCount: 4,
+                angle: 120,
+                spread: 55,
+                origin: {x: 1},
+                colors: colors
+            });
+            if (Date.now() < end) {
+                requestAnimationFrame(frame);
+            }
+        }());
+    })
+}

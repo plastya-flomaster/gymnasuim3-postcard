@@ -38,18 +38,22 @@ h3 {
 
 }
 .floor1 {
+    padding: 2em 0;
     background-color: #32b35e;
     background-image: linear-gradient(30deg, #32b35e 0%, #2AF598 100%);
 }
 .floor2 {
+    padding: 2em 0;
     background-color: #fff63b;
     background-image: linear-gradient(90deg, #fff63b 0%, #ffc63c 100%);
 }
 .floor3 {
+    padding: 2em 0;
     background-color: #fa6161;
     background-image: linear-gradient(45deg, #fa6161 0%, #F76B1C 100%);
 }
 .floor4 {
+    padding: 2em 0;
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%);
 }

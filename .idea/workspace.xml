@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9ab8888-97b6-49d1-b1a9-21d69d32c07f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <updated>1610477964959</updated>
       <workItem from="1610477966268" duration="8248000" />
       <workItem from="1610524727985" duration="582000" />
-      <workItem from="1610572903227" duration="3118000" />
+      <workItem from="1610572903227" duration="3233000" />
     </task>
     <task id="LOCAL-00001" summary="f">
       <created>1610576299278</created>
@@ -79,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610576299278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="f2">
+      <created>1610613364853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610613364853</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,17 +104,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="f" />
-    <option name="LAST_COMMIT_MESSAGE" value="f" />
+    <MESSAGE value="f2" />
+    <option name="LAST_COMMIT_MESSAGE" value="f2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="631" y="366" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610479019789">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="631" y="366" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1610479019789" />
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1610576301517">
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1610613368840">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1610576301517" />
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1610613368840" />
     <state x="519" y="174" width="753" height="931" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610483103903">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
